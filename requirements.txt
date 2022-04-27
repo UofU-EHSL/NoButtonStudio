@@ -5,7 +5,11 @@ boxsdk[jwt]
 pydrive
 opencv-python
 pyaudio
+threaded
 wave
-threading
-time
 subprocess
+sounddevice
+portaudio
+soundfile
+libasound-dev
+libportautdio2

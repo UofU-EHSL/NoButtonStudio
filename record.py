@@ -55,7 +55,7 @@ def recordAudio():
     q = queue.Queue()
     filename = "audio.wav"
     device = 0
-    samplerate = 2400
+    samplerate = 44100
     channels = 1
     subtype = "PCM_24"
 
