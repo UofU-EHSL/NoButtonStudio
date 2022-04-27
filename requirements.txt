@@ -1,0 +1,11 @@
+ffmpeg
+boxsdk
+bottle
+boxsdk[jwt]
+pydrive
+opencv-python
+pyaudio
+wave
+threading
+time
+subprocess
