@@ -2,11 +2,10 @@ version: '3'
 services:
   home-assistant:
     image: 'homeassistant/home-assistant:2022.2'
+    ports:
+      - "8123:8123"
     restart: unless-stopped
     volumes:
-      - '/home/home-server/Documents/homeassistant:/config'
+      - '/Users/benjaminengel/Documents/homeassistant:/config'
       - '/etc/localtime:/etc/localtime:ro'
-    devices:
-      - '/dev/ttyUSB0:/dev/ttyUSB0'
     privileged: true
-    network_mode: host
