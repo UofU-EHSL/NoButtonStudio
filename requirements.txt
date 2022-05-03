@@ -1,9 +1,9 @@
-ffmpeg
 boxsdk
 bottle
 boxsdk[jwt]
 pydrive
 opencv-python
+ffmpeg-python
 pyaudio
 threaded
 wave
