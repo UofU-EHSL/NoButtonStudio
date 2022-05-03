@@ -1,15 +1,3 @@
-boxsdk
-bottle
-boxsdk[jwt]
 pydrive
-opencv-python
 ffmpeg-python
-pyaudio
 threaded
-wave
-subprocess
-sounddevice
-portaudio
-soundfile
-libasound-dev
-libportautdio2
